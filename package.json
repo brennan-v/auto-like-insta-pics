@@ -14,7 +14,8 @@
     "express": "^4.16.1",
     "instagram-api": "^1.0.3",
     "node-cron": "^1.2.1",
-    "request": "^2.83.0"
+    "request": "^2.83.0",
+    "vows": "^0.8.1"
   },
   "devEngines": {
     "node": "8.x"
