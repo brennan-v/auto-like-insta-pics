@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "mocha spec"
+    "test": "vows --spec"
   },
   "author": "Gulzar",
   "license": "ISC",
