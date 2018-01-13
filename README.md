@@ -1,5 +1,7 @@
 ![Image](/instagram.png)
-<h1 align="center"> Auto like Instagram pics </h1>
+<h1 align="center"> Auto like Instagram pics </h1>  
+
+[![Build Status](https://travis-ci.org/brennan-v/auto-like-my-gf-insta-pics.svg?branch=dev)](https://travis-ci.org/brennan-v/auto-like-my-gf-insta-pics)  
 
 Bot to automatically like your girlfriend's/friend's Instagram posts, and notify you on your Slack channel.
 
@@ -30,7 +32,8 @@ https://api.instagram.com/oauth/authorize/?client_id=CLIENT_ID_GOES_HERE&redirec
 5. Copy the access_token value into your .env file or the heroku enviroment config. This will be used as the value for `INSTAGRAM_ACCESS_TOKEN`.
 6. Use the following website to get the instagram id of the person you want to auto-like. This will be used as the value for `USER_ID_TO_MONITOR`.
 
-https://smashballoon.com/instagram-feed/find-instagram-user-id/
+https://smashballoon.com/instagram-feed/find-instagram-user-id/  
+
 7. Get your Slack Channel Webhook URL [Slack Webhooks](https://api.slack.com/incoming-webhooks).
 
 Installation
