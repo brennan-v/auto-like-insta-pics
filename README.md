@@ -23,9 +23,15 @@ Big Caveat (Read this)
 ================
 Due to Instagram API changes in mid-2016. All new dev clients are sandboxed until approval.
 
-What this means is that until your client is approved will you'll only be able to auto-like users that have been invited to the sandbox and they have approved the sandbox invite AND haver approved token access to their account.
+What this means is that until your client is approved will you'll only be able to auto-like users that have been added to your sandbox.
 
-This obviously makes everything alot less sneaky (unless you can pull this off without the auto-likee noticing).
+Therfore, the auto-like target user will need to:
+
+1. Be invited to your sandbox and **approve** the sandbox invite (`https://www.instagram.com/developer/clients/sandbox_invites/`)
+
+You don't need to generate a token for this auto-like user, just for your instagram user.
+
+This obviously makes everything alot less sneaky (unless you can pull this off without the auto-like user noticing).
 
 Prerequisites
 ===================
@@ -43,7 +49,8 @@ In order for this to all work, you'll need to do the following:
 
 https://smashballoon.com/instagram-feed/find-instagram-user-id/  
 
-7. Get your Slack Channel Webhook URL [Slack Webhooks](https://api.slack.com/incoming-webhooks).  
+7. Get your Slack Channel Webhook URL [Slack Webhooks](https://api.slack.com/incoming-webhooks). 
+8. Invite the auto-like user to your sandbox (if app is still in dev) and have them approve the invite.
 
 Installation
 ===============
