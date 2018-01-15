@@ -70,6 +70,6 @@ app.get('/run', (req, res) => {
     },
   );
 });
-
-app.set('port', (process.env.PORT || 3000));
+// TODO: Testing, trying to keep things consistent for self installs and heroku setups
+app.set('port', (process.env.PORT || 80));
 app.listen(app.get('port'));
